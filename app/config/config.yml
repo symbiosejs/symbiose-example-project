@@ -1,0 +1,14 @@
+# app/config/config.yml
+
+path:
+  # default value
+  routes: app/config/routes.yml
+
+http:
+  port: 4312
+
+framework: 
+  templating:
+    engines:
+      - name: Nunjucks
+        extension: .njk

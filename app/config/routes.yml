@@ -1,0 +1,4 @@
+# app/config/routes.yml
+home:
+  path:       /
+  controller: site::home::homepage

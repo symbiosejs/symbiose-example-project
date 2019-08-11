@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0",
+  "private": true,
+  "description": "Example project with symbiose",
+  "main": "bin/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/symbiosejs/symbiose-example-project.git"
+  },
+  "author": "A-312",
+  "scripts": {
+    "lint": "eslint .",
+    "start": "node ./bin/index.js",
+    "test": "mocha --reporter spec --bail --check-leaks test/",
+    "test-ci": "mocha --reporter spec --check-leaks test/",
+    "coverage": "nyc mocha --reporter spec && nyc report --reporter=text-lcov | coveralls"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/symbiosejs/symbiose-example-project/issues"
+  },
+  "dependencies": {
+    "symbiose": "file:../symbiose",
+    "secret-dashboard": "file:./package/secret-dashboard",
+    "site": "file:./package/site",
+    "user": "file:./package/user"
+  }
+}
