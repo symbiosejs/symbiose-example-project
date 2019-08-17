@@ -28,7 +28,7 @@ const AppKernel = new Kernel({
   config: [
     'app/config/config.yml',
     /*
-     * If file doesn't exist, symbiose will throw an error.
+     * If this file doesn't exist, symbiose will throw an error.
      */
     `app/config/config_${Kernel.env}.yml`
   ],
