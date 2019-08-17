@@ -3,4 +3,4 @@ node_modules/
 *.sublime-project
 
 # Symbiose
-app/ache/
+app/.cache/
