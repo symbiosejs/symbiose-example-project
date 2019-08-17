@@ -2,7 +2,7 @@
   "name": "user",
   "version": "1.0.0",
   "private": true,
-  "main": "index.js",
+  "main": "bin/index.js",
   "author": "A-312",
   "license": "MIT",
   "dependencies": {
