@@ -1,0 +1,11 @@
+{
+  "name": "user",
+  "version": "1.0.0",
+  "private": true,
+  "main": "bin/index.js",
+  "author": "A-312",
+  "license": "MIT",
+  "dependencies": {
+    "symbiont": "1.0.0"
+  }
+}

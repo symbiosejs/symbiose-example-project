@@ -1,0 +1,10 @@
+# app/config/routes.yml
+routes:
+  home:
+    path:       /
+    # {symbiont}::{controller}::{view_function}
+    controller: site::home::homepage
+
+# global requirements
+requirements:
+  id: \d+
